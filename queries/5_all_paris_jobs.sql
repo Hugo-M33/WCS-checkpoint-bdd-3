@@ -1,1 +1,3 @@
-# Écris une requêtes SQL qui retourne toutes les offres d'emploi proposées à Paris (ville)
+SELECT titre, description, city
+FROM Offre
+WHERE city = "Paris"
